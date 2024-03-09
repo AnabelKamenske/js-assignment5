@@ -31,4 +31,19 @@ const numbers = [ -10, -5, 0, 5, 10, 8, -2 ]
 
 const numberStrings = numbers // append your array methods here
 
+function Number(input) {
+	for (let i = 0; i < input.length; i++) {
+		if (input[i] > 0) {
+			if (input[i] == isEven) {
+				console.log(input[i] + " is even")
+			}
+			else {
+				console.log(input[i] + " is odd")
+			}
+		}
+	}
+}
+
+
+
 test("Problem 3", numberStrings)

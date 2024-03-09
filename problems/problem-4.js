@@ -38,6 +38,16 @@ const items = [
 
 // Omit the 'age' element
 
+function Jedi(input) {
+	for (let i = 0; i < input.length; i++) {
+		console.log("Full Name: " + input[i].firstName + " " + input[i].lastName)
+		console.log("Occupation: " + input[i].occupation)
+		console.log("Home Planet: " + input[i].homePlanet)
+	}
+}
+
+foreach(items => Jedi(items));
+
 const person = items // append your code here
 
 test("Problem 4", person)

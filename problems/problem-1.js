@@ -31,4 +31,12 @@ const people = [
 
 const peopleStrings = people // append your array methods here
 
+function Name(input) {
+	for (let i = 0; i < input.length; i++) {
+		console.log("Name: " + input[i].firstName + " " + input[i].lastName + ", Age: " + input[i].age);
+	}
+}
+
+foreach(people => Name(people));
+
 test("Problem 1", peopleStrings)

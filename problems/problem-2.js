@@ -50,5 +50,7 @@ const strings = [
 ]
 
 const jedi = strings // append your code here
+	.filter(starwars => starwars.occupation === 'Jedi')
+	.map(starwars => `${jedi}`)
 
 test("Problem 2", jedi)
